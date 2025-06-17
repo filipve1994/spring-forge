@@ -40,7 +40,7 @@
           Spring Boot build info, so it displays as part of Spring Boot Actuator's Info endpoint. This
           is set by the configuration of the spring-boot-maven-plugin in the spring-forge-starter-pom.
         -->
-        <spring-forge.version>1.0.0-SNAPSHOT</spring-forge.version>
+        <spring-forge.version>1.0.1-SNAPSHOT</spring-forge.version>
         <revision>${spring-forge.version}</revision>
 
         <!-- Overrides to Spring Boot Managed dependencies -->
