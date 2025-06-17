@@ -139,15 +139,14 @@ username and GitHub token to access them even for read only access.
 These plugins are preconfigured and will be inherited by default by any application or library that used the Spring
 Forge Starter POM set as its parent. Modify as needed.
 
-|       Plugin       |                              Purpose                              |           Skip Flag            |
-|--------------------|-------------------------------------------------------------------|--------------------------------|
-| Spotless           | Used for some aspects of code formatting                          | `spotless.check.skip`          |
-| Spring Java Format | Used for some aspects of code formatting                          | `spring-javaformat.skip`       |
-| Git Build Hook     | Used to process Git Hooks during the Maven lifecycle              | N/A                            |
-| Maven Surefire     | Used for running unit tests                                       | `skipTests` or `skipUnitTests` |
-| Maven Failsafe     | Used for running integration tests                                | `skipTests` or `skipITs`       |
-| Maven Enforcer     | Used to enforce Maven constraints and detect dependency conflicts | `enforcer.skip`                |
-| JaCoCo             | Java Code Coverage reporting tool                                 | `jacoco.skip`                  |
+|       Plugin       |                       Purpose                        |           Skip Flag            |
+|--------------------|------------------------------------------------------|--------------------------------|
+| Spotless           | Used for some aspects of code formatting             | `spotless.check.skip`          |
+| Spring Java Format | Used for some aspects of code formatting             | `spring-javaformat.skip`       |
+| Git Build Hook     | Used to process Git Hooks during the Maven lifecycle | N/A                            |
+| Maven Surefire     | Used for running unit tests                          | `skipTests` or `skipUnitTests` |
+| Maven Failsafe     | Used for running integration tests                   | `skipTests` or `skipITs`       |
+| JaCoCo             | Java Code Coverage reporting tool                    | `jacoco.skip`                  |
 
 These plugins are pre-configured, but are not automatically inherited. Modify as needed.
 
