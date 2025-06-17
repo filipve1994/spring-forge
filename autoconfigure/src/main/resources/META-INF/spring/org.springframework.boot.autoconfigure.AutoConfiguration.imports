@@ -1,2 +1,3 @@
 dev.filipvde.springforge.autoconfigure.controlleradvice.CommonControllerAdviceAutoConfiguration
 dev.filipvde.springforge.autoconfigure.logging.LoggingAutoConfiguration
+dev.filipvde.springforge.autoconfigure.openapi.SwaggerAutoConfiguration

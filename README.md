@@ -77,7 +77,7 @@ Add the following to your application's POM to use Spring Forge.
         -->
         <groupId>dev.filipvde.springforge</groupId>
         <artifactId>spring-forge-starter-parent</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.1-SNAPSHOT</version>
         <relativePath/>
     </parent>
 
@@ -99,11 +99,11 @@ Add the following to your application's POM to use Spring Forge.
     <dependencies>
         <!-- Add the Spring Forge Starters and any dependencies you want to use. -->
         <dependency>
-            <groupId>dev.filipvde.springforge.spring34x</groupId>
+            <groupId>dev.filipvde.springforge</groupId>
             <artifactId>filipvde-spring-boot-starter-app</artifactId>
         </dependency>
         <dependency>
-            <groupId>dev.filipvde.springforge.spring34x</groupId>
+            <groupId>dev.filipvde.springforge</groupId>
             <artifactId>filipvde-spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>

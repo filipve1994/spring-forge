@@ -50,6 +50,9 @@
         <commons-text.version>1.13.1</commons-text.version>
         <logstash-logback-encoder.version>8.1</logstash-logback-encoder.version>
 
+        <swagger-api.version>2.2.30</swagger-api.version>
+        <springdoc.version>2.8.9</springdoc.version>
+
         <!-- Use alternate plugins versions than what is in the spring-boot-starter-parent. -->
 
         <!-- Third party plugin versions. Spring Boot Parent POM manages several already. -->
@@ -104,6 +107,20 @@
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
                 <scope>provided</scope>
+            </dependency>
+
+            <!-- swagger dependencies -->
+            <dependency>
+                <groupId>io.swagger.core.v3</groupId>
+                <artifactId>swagger-core-jakarta</artifactId>
+                <version>${swagger-api.version}</version>
+            </dependency>
+
+            <!-- openapi springdoc -->
+            <dependency>
+                <groupId>org.springdoc</groupId>
+                <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+                <version>${springdoc.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
