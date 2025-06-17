@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>dev.filipvde.springforge</groupId>
+        <artifactId>spring-boot-starters-pom</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <artifactId>filipvde-spring-boot-starter-logging</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>dev.filipvde.springforge</groupId>
+            <artifactId>autoconfigure</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>dev.filipvde.springforge.libs</groupId>
+            <artifactId>logging</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>net.logstash.logback</groupId>
+            <artifactId>logstash-logback-encoder</artifactId>
+        </dependency>
+        <!-- This is needed for logback "Conditional Processing". See https://logback.qos.ch/manual/configuration.html#conditional -->
+        <dependency>
+            <groupId>org.codehaus.janino</groupId>
+            <artifactId>janino</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
